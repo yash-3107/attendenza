@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+  height:100vh;
+   background-image:linear-gradient(to right,#43cea2,#185a9d);
+}
+div{
+    border:1px solid white;
+    padding:20px;
+    font-family:montserrat ;
+    color:white
+}
+div:hover{
+    background-color: aliceblue;
+    color:rgb(27, 63, 182);
+    transform: scale(1.2);
+    transition-duration: 500ms;
+    transition-;
+}
