@@ -45,3 +45,36 @@ h1{
     font-family: montserrat;
     font-weight: bolder;
 }
+/* Media query for Smaller device like iphone amd other android */
+@media (max-width: 767px){
+    body{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: row;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        /* padding-right: 10px; */
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sub{
+        padding: 22px;
+        margin: 2px;
+
+        
+    }
+    h1{
+        color:aliceblue;
+        font-family: montserrat;
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    #logos{
+        padding:2px;
+        padding: auto;
+        margin: none;
+    }
+}
+
