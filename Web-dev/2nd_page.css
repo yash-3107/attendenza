@@ -37,6 +37,17 @@
    
    font-family: montserrat;
 }
+
+a{
+    
+        padding: 10px;
+       height: 8rem;
+       width: 40%;
+       text-align: center;
+       color: white;
+       font-family: montserrat;
+    
+}
 i{
     font-size: 5em;
 }
