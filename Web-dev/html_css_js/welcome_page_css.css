@@ -1,0 +1,107 @@
+/* Default styles for all screen sizes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+.img {
+  height: 110vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -2;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  opacity: 0.75;
+  border: 4px solid green;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 50px;
+}
+
+img {
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  margin-top: 3rem;
+  border-radius: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text {
+  text-decoration: dashed;
+  text-align: center;
+  margin: 2rem;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 0.35rem;
+  background-color: green;
+  color: rgb(255, 255, 255);
+  font-family: montserrat;
+}
+
+a {
+  text-decoration: dashed;
+  text-align: center;
+  margin-bottom: 2rem;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 0.35rem;
+  background-color: green;
+  color: rgb(255, 255, 255);
+  font-family: montserrat;
+}
+
+.logo {
+  font-size: 5rem;
+}
+
+/* Media Query for screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 767px) {
+  body {
+    flex-direction: column; /* Stack elements vertically on small screens */
+  }
+
+  .container {
+    padding: 20px; /* Increase padding for better mobile layout */
+  }
+
+  img {
+    height: 8rem; /* Decrease image size for mobile */
+    width: 8rem;
+  }
+  
+  .logo {
+    font-size: 3rem; /* Decrease logo size for mobile */
+  }
+}
+
+/* Media Query for screens between 768px and 1023px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Add specific styles for tablets if needed */
+}
+
+/* Media Query for screens larger than 1023px (e.g., desktops) */
+@media (min-width: 1024px) {
+  /* Add specific styles for desktops if needed */
+}

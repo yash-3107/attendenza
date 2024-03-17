@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  height:100vh;
+   background-image:linear-gradient(to right,#43cea2,#185a9d);
+}
+div:not(#added_courses){
+    margin:8px;
+    border:1px solid white;
+    padding:20px;
+    font-family:montserrat ;
+    color:white;
+    
+}
+div:hover:not(#added_courses){
+    background-color: aliceblue;
+    color:rgb(27, 63, 182);
+    transform: scale(1.2);
+    transition-duration: 500ms;
+    transition-;
+}
+#added_courses{
+    display: flex;
+    flex-direction: column;
+    
+}
+i{
+    float: right;
+    margin-left:18px ;
+
+}
